@@ -1,6 +1,6 @@
 # Google Cloud Toolbox
 
-I want to test WPF on .net core. So I created this small tool to interact with some of the services that I use on Google Cloud.
+I wanted to test WPF on .net core. So I created this small tool to interact with some of the services that I use on Google Cloud.
 
 Currenty it allows to view and edit kubernetes secrets.
 
