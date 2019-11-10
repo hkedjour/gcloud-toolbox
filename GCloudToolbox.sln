@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{874720B3-60BE-4259-B029-0CA3DDD4B89B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7FABA7C8-D44B-44C1-9679-DA88AA08E696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{F62B7331-B25D-4FCD-A574-F4C18F9A5433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{CC128E8D-CD11-47A3-AB6E-17344320C78A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox", "src\GCloudToolbox\GCloudToolbox.csproj", "{62CB9AA9-E99E-49A1-B0B7-17857564EBD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.Kubernetes.Secrets.UI", "modules\GCloudToolbox.Kubernetes.Secrets.UI\GCloudToolbox.Kubernetes.Secrets.UI.csproj", "{DD0F460B-1FF4-4314-A70E-C106422EFB23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.Kubernetes", "lib\GCloudToolbox.Kubernetes\GCloudToolbox.Kubernetes.csproj", "{E4021DED-F351-42D2-A103-F91C2D7C60CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.Core", "lib\GCloudToolbox.Core\GCloudToolbox.Core.csproj", "{892AE708-DF59-4515-975A-BC2407742247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.PubSub", "lib\GCloudToolbox.PubSub\GCloudToolbox.PubSub.csproj", "{0942304B-A543-47DE-B9D2-A30D89275C51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.PubSub.UI", "modules\GCloudToolbox.PubSub.UI\GCloudToolbox.PubSub.UI.csproj", "{DB118CB1-06CB-41C4-BCC9-5830D5F2387C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.Shell", "modules\GCloudToolbox.Shell\GCloudToolbox.Shell.csproj", "{8E75C718-FB76-45D4-A46B-7B3C90710C4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloudToolbox.Core.Wpf", "lib\GCloudToolbox.Core.Wpf\GCloudToolbox.Core.Wpf.csproj", "{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62CB9AA9-E99E-49A1-B0B7-17857564EBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CB9AA9-E99E-49A1-B0B7-17857564EBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CB9AA9-E99E-49A1-B0B7-17857564EBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CB9AA9-E99E-49A1-B0B7-17857564EBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0F460B-1FF4-4314-A70E-C106422EFB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0F460B-1FF4-4314-A70E-C106422EFB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0F460B-1FF4-4314-A70E-C106422EFB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0F460B-1FF4-4314-A70E-C106422EFB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4021DED-F351-42D2-A103-F91C2D7C60CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4021DED-F351-42D2-A103-F91C2D7C60CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4021DED-F351-42D2-A103-F91C2D7C60CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4021DED-F351-42D2-A103-F91C2D7C60CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892AE708-DF59-4515-975A-BC2407742247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892AE708-DF59-4515-975A-BC2407742247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892AE708-DF59-4515-975A-BC2407742247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892AE708-DF59-4515-975A-BC2407742247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0942304B-A543-47DE-B9D2-A30D89275C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0942304B-A543-47DE-B9D2-A30D89275C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0942304B-A543-47DE-B9D2-A30D89275C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0942304B-A543-47DE-B9D2-A30D89275C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB118CB1-06CB-41C4-BCC9-5830D5F2387C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB118CB1-06CB-41C4-BCC9-5830D5F2387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB118CB1-06CB-41C4-BCC9-5830D5F2387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB118CB1-06CB-41C4-BCC9-5830D5F2387C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E75C718-FB76-45D4-A46B-7B3C90710C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E75C718-FB76-45D4-A46B-7B3C90710C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E75C718-FB76-45D4-A46B-7B3C90710C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E75C718-FB76-45D4-A46B-7B3C90710C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62CB9AA9-E99E-49A1-B0B7-17857564EBD3} = {874720B3-60BE-4259-B029-0CA3DDD4B89B}
+		{DD0F460B-1FF4-4314-A70E-C106422EFB23} = {F62B7331-B25D-4FCD-A574-F4C18F9A5433}
+		{E4021DED-F351-42D2-A103-F91C2D7C60CB} = {CC128E8D-CD11-47A3-AB6E-17344320C78A}
+		{892AE708-DF59-4515-975A-BC2407742247} = {CC128E8D-CD11-47A3-AB6E-17344320C78A}
+		{0942304B-A543-47DE-B9D2-A30D89275C51} = {CC128E8D-CD11-47A3-AB6E-17344320C78A}
+		{DB118CB1-06CB-41C4-BCC9-5830D5F2387C} = {F62B7331-B25D-4FCD-A574-F4C18F9A5433}
+		{8E75C718-FB76-45D4-A46B-7B3C90710C4D} = {F62B7331-B25D-4FCD-A574-F4C18F9A5433}
+		{28E15B1E-AD8A-4ABB-BE98-6BFD1B834626} = {CC128E8D-CD11-47A3-AB6E-17344320C78A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB63A22D-4457-45FF-B334-920D51B1FED7}
+	EndGlobalSection
+EndGlobal

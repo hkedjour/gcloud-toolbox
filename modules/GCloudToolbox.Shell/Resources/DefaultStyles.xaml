@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:core="clr-namespace:GCloudToolbox.Core;assembly=GCloudToolbox.Core"
+                    xmlns:shell="clr-namespace:GCloudToolbox.Shell">
+
+    <!-- A converter to convert image urls binding to ImageSource -->
+    <shell:ImagePathConverter x:Key="ImageSourceConverter"/>
+
+    <!-- Display template for the DefaultHeader -->
+    <DataTemplate DataType="{x:Type core:DefaultHeader}">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="{Binding IconPath, Converter={StaticResource ImageSourceConverter}}" Width="16" Height="16"/>
+            <TextBlock Text="{Binding Title}" Margin="3, 0, 0, 0"></TextBlock>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>
