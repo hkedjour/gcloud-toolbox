@@ -10,8 +10,8 @@ Since my main goal was just to see how WPF is doing in .net core, some error han
 
 This animation shows the basic working of the application:
 
-![](gcloud-toolbox.gif | width=700)
+![](gcloud-toolbox.gif)
 
 Many tabs can be opened at the same time:
 
-![](gcloud-toolbox-1.gif | width=700)
+![](gcloud-toolbox-1.gif)
